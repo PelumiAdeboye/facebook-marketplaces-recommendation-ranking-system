@@ -28,8 +28,8 @@ def clean_image_data(input_folder, output_folder, final_size=512):
         print(item)
 
 if __name__ == '__main__':
-    input_path = "C:/Users/USER/OneDrive - Teesside University/Documents/Ai Core/MyProject/Facebook Marketplace's Recommendation Ranking System/images"  # input image folder
-    output_path = "C:/Users/USER/OneDrive - Teesside University/Documents/Ai Core/MyProject/Facebook Marketplace's Recommendation Ranking System/newcleaned_images"  # The cleaned images will be saved in this folder
+    input_path = ""  # input image folder path
+    output_path = ""  # Input the path for where cleaned images will be saved
     final_image_size = 512
 
     clean_image_data(input_path, output_path, final_image_size)
